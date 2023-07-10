@@ -1,0 +1,22 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #DFFB6D;
+}
+
+.image-shape-container {
+ 
+  height: 400px;
+  width: 95%;
+}
+
+.image-main {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
