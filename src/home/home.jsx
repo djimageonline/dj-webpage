@@ -1,6 +1,6 @@
 import "./home.css";
 
-import { FaMixcloud, FaTiktok, FaInstagramSquare } from "react-icons/fa";
+import { FaMixcloud, FaTiktok, FaInstagramSquare, FaFacebookSquare } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -13,26 +13,27 @@ export default function Home() {
       </div>
       <div className="text-container">
         <div className="icon-list">
-          <a>
+          <a href="https://www.mixcloud.com/djimageonline/" target="blank">
             <FaMixcloud className="icon" />
           </a>
-          <a>
+          <a href="https://www.instagram.com/djimageonline/" target="blank">
             <FaInstagramSquare className="icon" />
           </a>
-          <a>
+          <a href="https://www.tiktok.com/@djimageonline" target="blank">
             <FaTiktok className="icon" />
           </a>
-          <a>
-            <FaMixcloud className="icon" />
+          <a href="https://www.facebook.com/djimageonline1/" target="blank">
+            <FaFacebookSquare className="icon" />
           </a>
         </div>
       </div>
 
       <iframe
+        className="iframe"
         width="100%"
-        height="400"
+        height="200"
         src="https://www.mixcloud.com/widget/iframe/?light=1&autoplay=1&feed=%2Fdjimageonline%2F"
-        frameborder="0"
+        frameBorder="0"
         allow="autoplay"
       ></iframe>
     </div>

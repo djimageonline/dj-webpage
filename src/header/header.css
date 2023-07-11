@@ -1,14 +1,43 @@
 .image-logo-black{
-  width: 160px;
+  width: 100px;
   margin: 0;
 }
 
+header {
+  justify-content: space-between;
+  display: flex;
+  padding: .2em;
+  align-items: center;
+}
+
+#toggle {
+  display: none;
+}
+
+.no-text-decoration p {
+  text-decoration: none;
+}
+
+.span-link {
+  margin-right: 2em;
+
+}
+
+.span-link:hover, .span-link::after {
+  background-color: #DFFB6D;
+}
+
+/* Mobile Setup */
+
 @media (max-width: 768px) {
+
+  .image-logo-black{
+    width: 160px;
+  }
   
   header {
-    display: flex;
-    justify-content: center;
-    padding: .2em;
+    justify-content:start;
+    align-items: normal;
   }
 
   #toggle {
@@ -20,7 +49,7 @@
     padding: 1em;
     background: transparent;
     background-color: #DFFB6D;
-    border-radius: 20%;
+    border-radius: 50%;
     border: 0;
     cursor: pointer;
     position: absolute;

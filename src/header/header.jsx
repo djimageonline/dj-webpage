@@ -28,30 +28,30 @@ export default function Header() {
         <nav className="nav">
           <div className="menu-list">
             <Link to="/">
-              <span className="span-link" onClick={handelNavClose}>
+              <span className="span-link no-text-decoration" onClick={handelNavClose}>
                 {" "}
                 HOME
               </span>
             </Link>
-            {/* 
-            <Link to="/tours/index">
-              <span className="span-link" onClick={handelNavClose}>
+
+            <Link to="/">
+              <span className="span-link no-text-decoration" onClick={handelNavClose}>
                 {" "}
                 BIO
               </span>
             </Link>
 
-            <Link to="/brewery/index">
+            <Link to="/">
               <span className="span-link" onClick={handelNavClose}>
-                GALLERY
+                WHAT I DO
               </span>
             </Link>
 
-            <Link to="/brewery/index">
+            <Link to="/">
               <span className="span-link" onClick={handelNavClose}>
                 CONTACT
               </span>
-            </Link> */}
+            </Link>
           </div>
         </nav>
       </div>

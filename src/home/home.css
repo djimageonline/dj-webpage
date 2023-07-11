@@ -3,15 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 .image-shape-container {
-  position: relative;
   height: 500px;
-  background-image: url("src/assets/ttt.PNG");
+  background-image: url("src/assets/hero.PNG");
   background-size: cover;
-  background-position-x: -70px;
+  background-position-x: -90px;
   width: 100%;
 }
 
@@ -47,6 +45,21 @@ h1 {
 .icon {
   font-size: 1.5em;
   background-color: #DFFB6D;
+  color: black;
   border-radius: 50%;
   padding: .5em;
 }
+
+/* Desktp Layout */
+
+@media (min-width: 500px) {
+  .text {
+background-color: aqua;
+  }
+
+  
+}
+
+/* .iframe {
+  width: 50%;
+} */
