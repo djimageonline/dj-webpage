@@ -43,7 +43,7 @@ export default function Header() {
 
             <Link to="/">
               <span className="span-link" onClick={handelNavClose}>
-                WHAT I DO
+                WHAT
               </span>
             </Link>
 

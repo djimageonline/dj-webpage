@@ -3,10 +3,14 @@
   margin: 0;
 }
 
+a {  
+  text-decoration: none;
+}
+
 header {
   justify-content: space-between;
   display: flex;
-  padding: .2em;
+  padding: .5em;
   align-items: center;
 }
 
@@ -14,13 +18,9 @@ header {
   display: none;
 }
 
-.no-text-decoration p {
-  text-decoration: none;
-}
-
 .span-link {
   margin-right: 2em;
-
+  color: black;  
 }
 
 .span-link:hover, .span-link::after {
@@ -92,7 +92,7 @@ header {
     right: 0;
     z-index: 100;
     opacity: .9;
-
+  
     transform: translateX(100%);
     transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
   }
@@ -102,16 +102,11 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-
     height: 100%;
-    /* position: relative; */
-   
+    position: relative;
   }
 
-  a {
-    display: block;
-    padding: 0 12px;
-  }
+ 
 
   .span-link {
     color: rgb(249, 249, 249);
@@ -121,6 +116,7 @@ header {
     padding: 2px 0px;
     white-space: nowrap;
     position: relative;
+    margin-right: 0;
   }
 
   .hamburger {

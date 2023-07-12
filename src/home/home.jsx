@@ -5,24 +5,26 @@ import { FaMixcloud, FaTiktok, FaInstagramSquare, FaFacebookSquare } from "react
 export default function Home() {
   return (
     <div className="home-container">
-      <div className="image-shape-container">
+      <div className="hero">
+        <div className="image-shape-container"></div>
         <div className="text">
           <h1>DEEJAY IMAGE</h1>
           <p>Hi, I'm a DJ formerly from Chicago, IL now residing in Orlando, FL</p>
         </div>
       </div>
+
       <div className="text-container">
         <div className="icon-list">
-          <a href="https://www.mixcloud.com/djimageonline/" target="blank">
+          <a className="icon-link" href="https://www.mixcloud.com/djimageonline/" target="blank">
             <FaMixcloud className="icon" />
           </a>
-          <a href="https://www.instagram.com/djimageonline/" target="blank">
+          <a className="icon-link" href="https://www.instagram.com/djimageonline/" target="blank">
             <FaInstagramSquare className="icon" />
           </a>
-          <a href="https://www.tiktok.com/@djimageonline" target="blank">
+          <a className="icon-link" href="https://www.tiktok.com/@djimageonline" target="blank">
             <FaTiktok className="icon" />
           </a>
-          <a href="https://www.facebook.com/djimageonline1/" target="blank">
+          <a className="icon-link" href="https://www.facebook.com/djimageonline1/" target="blank">
             <FaFacebookSquare className="icon" />
           </a>
         </div>
