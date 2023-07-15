@@ -9,7 +9,11 @@ export default function Home() {
         <div className="image-shape-container"></div>
         <div className="text">
           <h1>DEEJAY IMAGE</h1>
-          <p>Hi, I'm a DJ formerly from Chicago, IL now residing in Orlando, FL</p>
+          <p>
+            Hi, I'm a DJ formerly from Chicago, IL now residing in Orlando, FL, Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Libero nemo corrupti porro distinctio laboriosam soluta ipsum animi! Impedit, in officiis
+            ipsum soluta placeat neque recusandae aliquid eius iusto ipsa incidunt!
+          </p>
         </div>
       </div>
 

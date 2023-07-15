@@ -70,26 +70,56 @@ p {
 
 @media (min-width: 600px) {
 
+  .home-container {
+    margin: 0 4em 0 4em;
+  }
+
   .text {
+    display: flex;
     position:initial;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  h1, p {
+    color: black;
+    text-shadow: none;
+
+  }
+  
+  h1 {
+    margin: 5px 0;
+  }
+  
+  p {
+    font-size: 1.1rem;
   }
 
   .hero {
     display: flex;
     flex-direction: row;
-    height: 350px;
+    height: 400px;
+    margin: 3em auto .5em auto;
+    background-color:#DFFB6D;
+    box-shadow: 5px 2px 7px black;
   }
 
   .image-shape-container {
-    height: 350px;
+    height: 400px;
+    width: 550px;
     background-image: url("src/assets/hero.PNG");
     background-size: cover;
-    background-position-x: -90px;
-    width: 40%;
+    background-repeat: no-repeat;
+    background-position-x: -100px;
     
   }
 
+ 
+
   .iframe {
-  width: 50%;
+  width: 100%;
 }
 }
