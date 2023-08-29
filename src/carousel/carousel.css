@@ -1,0 +1,81 @@
+div .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  background-color: #00008B;
+  color: #fff;
+  margin: 0 2px;
+  font-size: 4em;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-container {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.img1 {
+  background-image: url("src/images/image-effect.PNG");
+}
+
+.img2 {
+  background-image: url("src/images/parktavern-pic.jpg");
+
+}
+
+.img3 {
+  background-image: url("src/images/image-pool.JPG");
+}
+
+.img4 {
+  background-image: url("src/images/KissFM.PNG");
+}
+
+.img5 {
+  background-image: url("src/images/image-indy.jpeg");
+}
+
+.img6 {
+  background-image: url("src/images/pool2.jpg");
+}
+
+.img7 {
+  background-image: url("src/images/image1.jpeg");
+}
+
+.img8 {
+  background-image: url("src/images/hero.PNG");
+}
+
+.carousel {
+  position: relative;
+  background-color: #DFFB6D;
+  padding-top: 12px;
+}
+
+button.rec-dot{
+  display: none;
+}
+
+.rec-arrow-left {
+  position: absolute;
+  z-index: 1;
+}
+
+.rec-arrow-right {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+}
+
+
+
+

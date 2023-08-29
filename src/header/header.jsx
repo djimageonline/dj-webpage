@@ -13,7 +13,7 @@ export default function Header() {
   };
   return (
     <header>
-      <img className="image-logo-black" src="src/assets/image-logo-black.png"></img>
+      <img className="image-logo-black" src="src/images/image-logo-black.png"></img>
       <div className="navbar">
         <button
           // type="submit"
@@ -43,7 +43,7 @@ export default function Header() {
 
             <Link to="/">
               <span className="span-link" onClick={handelNavClose}>
-                WHAT
+                WHAT I DO
               </span>
             </Link>
 

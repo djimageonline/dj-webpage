@@ -1,17 +1,24 @@
 .image-logo-black{
-  width: 100px;
-  margin: 0;
+  width: 500px;
 }
 
 a {  
   text-decoration: none;
 }
 
+.menu-list {
+  display: flex;
+  width: 400px;
+  justify-content: space-between
+}
+
 header {
   justify-content: space-between;
   display: flex;
-  padding: .5em;
+  flex-direction: column;
+  padding: 1.5em;
   align-items: center;
+  ;
 }
 
 #toggle {
@@ -19,12 +26,12 @@ header {
 }
 
 .span-link {
-  margin-right: 2em;
   color: black;  
 }
 
 .span-link:hover, .span-link::after {
-  background-color: #DFFB6D;
+  color: #9cb634;
+  /* text-shadow: 0px 0px 2px black; */
 }
 
 /* Mobile Setup */
@@ -33,11 +40,13 @@ header {
 
   .image-logo-black{
     width: 160px;
+    margin-left: 0;
   }
   
   header {
     justify-content:start;
     align-items: normal;
+    margin-right: 0;
   }
 
   #toggle {
@@ -45,10 +54,9 @@ header {
   }
 
   .nav-toggle {
-    margin-top: 1.4em;
+    margin-top: -45px;
     padding: 1em;
     background: transparent;
-    background-color: #DFFB6D;
     border-radius: 50%;
     border: 0;
     cursor: pointer;

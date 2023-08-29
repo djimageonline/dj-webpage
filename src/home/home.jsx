@@ -1,3 +1,4 @@
+import CarouselHero from "../carousel/carousel";
 import "./home.css";
 
 import { FaMixcloud, FaTiktok, FaInstagramSquare, FaFacebookSquare } from "react-icons/fa";
@@ -6,15 +7,8 @@ export default function Home() {
   return (
     <div className="home-container">
       <div className="hero">
-        <div className="image-shape-container"></div>
-        <div className="text">
-          <h1>DEEJAY IMAGE</h1>
-          <p>
-            Hi, I'm a DJ formerly from Chicago, IL now residing in Orlando, FL, Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Libero nemo corrupti porro distinctio laboriosam soluta ipsum animi! Impedit, in officiis
-            ipsum soluta placeat neque recusandae aliquid eius iusto ipsa incidunt!
-          </p>
-        </div>
+        <CarouselHero />
+        {/* <CarouselHeroTest /> */}
       </div>
 
       <div className="text-container">
