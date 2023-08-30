@@ -6,6 +6,7 @@
   
 }
 
+
 .hero {
   width: 100%;
   position: relative;
@@ -18,23 +19,19 @@
   padding: 1em;
 }
 
-.text {
-  position: absolute;
-  bottom: 10px;
-  padding: 1em;
-}
-
 h1, p {
   color: white;
   text-shadow: 3px 8px 10px black;
 }
 
-h1 {
-  margin: 5px 0;
-}
+.main-home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 3em;
 
-p {
-  font-size: 1.5rem;
 }
 
 .icon {
@@ -69,6 +66,7 @@ p {
     margin-right: 2em;
     
   }
+  
 
   h1, p {
     color: black;

@@ -1,0 +1,59 @@
+.form-container,
+.form-inner,
+form {
+  display: flex;
+  justify-content: center;
+}
+
+div h1 {
+  color: white;
+}
+.form-container {
+  background-color: #383c60;
+  width: 100%;
+}
+
+form {
+  flex-direction: column;
+  padding: 1em;
+  width: 100%;
+}
+
+.form-inner {
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.input {
+  border: none;
+  border-radius: 10px;
+  height: 2.5em;
+  margin-bottom: 1em;
+  text-indent: 1em;
+}
+
+textarea {
+  resize: none;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  text-indent: 1em;
+
+}
+
+.submit {
+  background-color: white;
+  text-indent: none;
+  border: none;
+  border-radius: 10px;
+  height: 2.5em;
+}
+
+@media (min-width: 600px) {
+
+  form {
+    width: 500px;
+  }
+
+}
+
