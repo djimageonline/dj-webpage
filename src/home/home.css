@@ -30,7 +30,8 @@ h1, p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 
 }
 
@@ -65,6 +66,10 @@ h1, p {
     margin-left: 2em;
     margin-right: 2em;
     
+  }
+
+  .main-home-content {
+    width: 100%;
   }
   
 
