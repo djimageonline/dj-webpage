@@ -1,4 +1,5 @@
 import CarouselHero from "../carousel/carousel";
+
 import "./home.css";
 
 import { FaMixcloud, FaTiktok, FaInstagramSquare, FaFacebookSquare } from "react-icons/fa";
@@ -8,7 +9,6 @@ export default function Home() {
     <div className="home-container">
       <div className="hero">
         <CarouselHero />
-        {/* <CarouselHeroTest /> */}
       </div>
 
       <div className="text-container">
@@ -32,7 +32,7 @@ export default function Home() {
         className="iframe"
         width="100%"
         height="200"
-        src="https://www.mixcloud.com/widget/iframe/?light=1&autoplay=1&feed=%2Fdjimageonline%2F"
+        src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdjimageonline%2Fthe-image-effect-ep-16-feat-dj-rican-indianapolis%2F"
         frameBorder="0"
         allow="autoplay"
       ></iframe>

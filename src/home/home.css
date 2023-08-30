@@ -39,8 +39,8 @@ p {
 
 .icon {
   font-size: 1.5em;
-  background-color: #DFFB6D;
-  color: black;
+  background-color: #2e2d2f;
+  color: white;
   border-radius: 50%;
   padding: .5em;
 }
@@ -52,8 +52,8 @@ p {
 }
 
 .icon:hover {
-  background-color: black;
-  color: #DFFB6D;
+  background-color: #ebff7e;
+  color: #2e2d2f;
 }
 
 /*************** Desktp Layout *******************/
