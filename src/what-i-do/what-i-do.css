@@ -25,9 +25,25 @@
   padding: 2em;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
 .content, p {
   display: flex;
   text-align: center;
   flex-direction: column;
-  color: #dffb6d;
+  color: rgb(228, 222, 222);
+}
+
+.icon-services{
+  color: #b4cc53;
+  font-size: 4em;
+}
+
+h2 {
+  text-transform: uppercase;
 }

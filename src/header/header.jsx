@@ -34,7 +34,7 @@ export default function Header() {
               </span>
             </Link>
 
-            <Link to="/">
+            <Link to="/bio">
               <span className="span-link no-text-decoration" onClick={handelNavClose}>
                 {" "}
                 BIO

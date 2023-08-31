@@ -45,16 +45,13 @@ div .item {
 }
 
 .img6 {
-  background-image: url("src/images/pool2.jpg");
+  background-image: url("src/images/poolv2.PNG");
 }
 
 .img7 {
   background-image: url("src/images/image1.jpeg");
 }
 
-.img8 {
-  background-image: url("src/images/hero.PNG");
-}
 
 .carousel {
   position: relative;

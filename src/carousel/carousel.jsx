@@ -17,7 +17,6 @@ export default function CarouselHero() {
         <div className="item img5"></div>
         <div className="item img6"></div>
         <div className="item img7"></div>
-        <div className="item img8"></div>
       </Carousel>
     </div>
   );
