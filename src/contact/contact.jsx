@@ -14,7 +14,9 @@ export default function Contact() {
           <input className="input" type="text" name="time" placeholder="Event Time" />
           <input className="input" type="text" name="location" placeholder="Event Location" />
           <textarea name="postContent" rows={4} cols={40} placeholder="Tell me a bit more about your event" required />
-          <input type="submit" value="Submit" className="submit" />
+          <div className="center-submit">
+            <input type="submit" value="Submit" className="submit" />
+          </div>
         </form>
       </div>
     </div>

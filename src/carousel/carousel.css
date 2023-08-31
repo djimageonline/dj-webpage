@@ -58,7 +58,7 @@ div .item {
 
 .carousel {
   position: relative;
-  background-color: #383c5f;
+  background-color: #dffb6d;
   padding-top: 12px;
 }
 
@@ -75,6 +75,12 @@ button.rec-dot{
   position: absolute;
   z-index: 1;
   right: 0;
+}
+
+.rec.rec-arrow:hover,
+.rec.rec-arrow:active,
+.rec.rec-arrow:focus {
+  background-color: #25292c !important;
 }
 
 

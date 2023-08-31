@@ -1,7 +1,6 @@
 import CarouselHero from "../carousel/carousel";
 import Contact from "../contact/contact";
 import "./home.css";
-
 import { FaMixcloud, FaTiktok, FaInstagramSquare, FaFacebookSquare } from "react-icons/fa";
 
 export default function Home() {

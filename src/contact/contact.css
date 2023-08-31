@@ -1,3 +1,10 @@
+.input,
+textarea,
+.submit,
+form {
+  font-family: 'Poppins', sans-serif;
+}
+
 .form-container,
 .form-inner,
 form {
@@ -6,10 +13,11 @@ form {
 }
 
 div h1 {
-  color: white;
+  color: #dffb6d;
+  font-size: 2.5rem;
 }
 .form-container {
-  background-color: #383c60;
+  background-color: #25292c;
   width: 100%;
 }
 
@@ -27,11 +35,18 @@ form {
 }
 
 .input {
-  border: none;
+  border: 1px solid #25292c;
   border-radius: 10px;
   height: 2.5em;
   margin-bottom: 1em;
-  text-indent: 1em;
+  text-indent: 1em;  
+  outline: none;
+}
+
+input:focus,
+textarea:focus
+ {
+  background-color: #dffb6d;
 }
 
 textarea {
@@ -39,15 +54,28 @@ textarea {
   border-radius: 10px;
   margin-bottom: 1em;
   text-indent: 1em;
-
+  outline: none;
 }
 
+
 .submit {
-  background-color: white;
+  background-color: #dffb6d;
   text-indent: none;
   border: none;
   border-radius: 10px;
-  height: 2.5em;
+  height: 3em;
+  width: 100%;
+}
+
+.center-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.submit:hover {
+  background-color: #b4cc53;
 }
 
 @media (min-width: 600px) {
@@ -56,7 +84,9 @@ textarea {
     width: 500px;
   }
 
- 
+  .submit {
+    width: 10em;
+  }
 
 }
 
